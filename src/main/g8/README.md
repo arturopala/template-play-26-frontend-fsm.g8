@@ -1,7 +1,5 @@
 # $servicename$ Frontend
 
-[ ![Download](https://api.bintray.com/packages/hmrc/releases/new-shiny-service-26-frontend/images/download.svg) ](https://bintray.com/hmrc/releases/new-shiny-service-26-frontend/_latestVersion)
-
 ## Running the tests
 
     sbt test it:test
@@ -12,7 +10,7 @@
 
 ## Running the app locally
 
-    sm --start AGENTS_STUBS -f
+    sm --start $servicenameSnake$ -f
     sbt run
 
 It should then be listening on port $serviceTargetPort$
